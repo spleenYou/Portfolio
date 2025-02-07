@@ -1,6 +1,4 @@
-# Protfolio
-
-Binevenue sur mon portfolio
+# Bienvenue sur mon portfolio
 
 ## OpenClassroom
 
@@ -24,7 +22,7 @@ Ce projet est la conception d'un logiciel de tournoi d'échec avec sauvegarde de
 
 Apprentissage :
 - Programmation orientée objet
-- Designe pattern MVC
+- Design pattern MVC
 - Sauvegarde des informations au format JSON
 - Standard PEP8
 
@@ -39,7 +37,7 @@ Apprentissage :
 - Base du javascript
 - Utilisation d'une API REST
 
-### Projet : [Les algorithmes]()
+### Projet : [Les algorithmes](https://github.com/spleenYou/OC-P7)
 
 Le projet consiste en la recherche d'une solution d'achat d'actions selon une liste fournie au format CSV.\
 Le but est de trouver la liste la plus rentable pour un montant d'achat donné.\
