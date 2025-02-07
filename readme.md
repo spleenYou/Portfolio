@@ -1,6 +1,6 @@
 # Protfolio
 
-Binevenue sur mon portfolio Github
+Binevenue sur mon portfolio
 
 ## OpenClassroom
 
