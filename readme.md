@@ -48,3 +48,26 @@ Apprentissage:
 - Limite de résolution d'un algorithme
 - Utilisation du package Rich
 - Mesure de temps d'éxecution du programme
+
+### Projet : [Application web Django](https://github.com/spleenYou/OC-P9)
+
+Le projet consiste en la construction d'un MVP d'un site en local.\
+L'application permet à une communauté d'utilisateurs de publier des critiques de livres ou d’articles et de consulter ou de solliciter une critique de livres à la demande.
+
+Les fonctionnalités principales :
+- Billets
+    - Demandes de critiques pour des livres ou articles
+    - Possibilité de créer un billet et une critique simultanément
+- Flux personnalisé
+    - Affiche billets et avis des utilisateurs suivis et de l'utilisateur connecté
+    - Inclut les réponses aux billets de l'utilisateur connecté
+    - Trié par ordre antéchronologique
+- Système de suivi
+    - Suivi d'autres utilisateurs pour voir leurs critiques
+    - Interface simple pour la gestion des suivis
+- Authentification
+    - Inscription et connexion requises pour accéder aux fonctionnalités
+
+Apprentissage:
+- Django
+- WCAG
