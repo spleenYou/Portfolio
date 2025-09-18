@@ -34,7 +34,7 @@ La dernière section a un menu permettant la sélection de la catégorie à affi
 Apprentissage :
 - HTML
 - CSS
-- Base du javascript
+- Bases de javascript
 - Utilisation d'une API REST
 
 ### Projet : [Les algorithmes](https://github.com/spleenYou/OC-P7)
@@ -115,7 +115,7 @@ Mise en place d'un pipeline CI/CD qui :
     - Effectue les tests et vérifie que la couverture du code (minimum 80%)
     - Crée deux images Docker (une latest et une avec le tag GIT_COMMIT pour historique)
     - Envoie sur le hub Docker
-    - Déploiement sur Render avec passage des variables d'environnement
+    - Déploie sur Render avec passage des variables d'environnement
 
 Apprentissage :
 - Docker
