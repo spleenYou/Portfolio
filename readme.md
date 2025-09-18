@@ -8,13 +8,13 @@ Présentation de mes solutions aux différents projets réalisés lors de ma for
 
 Le projet met en place la récupération d'informations sur des livres chez un revendeur.\
 La sauvegarde des informations se fait au format CSV.\
-Les premières de couvertures sont également sauvegardées.\
+Les premières de couverture sont également sauvegardées.\
 Le tout trié par catégorie.
 
 Apprentissage :
-- Base du python
+- Bases de python
 - Mise en place d'un pipeline ETL
-- Contrôle de version sur Github
+- Contrôle de version sur GitHub
 
 ### Projet : [Tournoi d'échec](https://github.com/spleenYou/OC-P4)
 
@@ -29,7 +29,7 @@ Apprentissage :
 ### Projet : [Interface utilisateur pour une application web](https://github.com/spleenYou/OC-P6)
 
 Le projet est la création d'une interface web responsive pour une association cinéphile affichant les meilleurs films dans diverses catégories.\
-La dernière section a un menu permettant la selection de la catégorie a afficher.
+La dernière section a un menu permettant la sélection de la catégorie à afficher.
 
 Apprentissage :
 - HTML
@@ -41,7 +41,7 @@ Apprentissage :
 
 Le projet consiste en la recherche d'une solution d'achat d'actions selon une liste fournie au format CSV.\
 Le but est de trouver la liste la plus rentable pour un montant d'achat donné.\
-La première solution se fait en burte-force, la deuxième est basé sur une résolution du problème du sac à dos pour une optimisation du temps d'exection.
+La première solution se fait en brute-force, la deuxième est basé sur une résolution du problème du sac à dos pour une optimisation du temps d'exécution.
 
 Apprentissage :
 - Notion big-O
@@ -72,12 +72,12 @@ Apprentissage :
 - Django
 - WCAG
 
-### Projet : [API sécurisé](https://github.com/spleenYou/OC-P10)
+### Projet : [API sécurisée](https://github.com/spleenYou/OC-P10)
 
 Le projet consiste a créer une API RESTful en utilisant Django REST avec une identification OAUTH2.\
 L'API permet de remonter et suivre des problèmes techniques avec gestion de groupes de contributeurs par projet et par problème.
-Elle utilise une authentification via JWT et respecte le RGPD car chaque contributeur peut choisir s'il peut être contacter et si leurs données personnelles peuvent être vu par tous.
-L'API tend vers des spécifications green code en envoyant le plus d'informations utiles possible en une fois afin d'éviter la surconsommation des serveurs.
+Elle utilise une authentification via JWT et respecte le RGPD car chaque contributeur peut choisir s'il peut être contacté et si leurs données personnelles peuvent être vues par tous.
+L'API tend vers des spécifications de green code en envoyant le plus d'informations utiles possibles en une fois afin d'éviter la surconsommation des serveurs.
 
 Apprentissage :
 - Django REST
@@ -85,9 +85,9 @@ Apprentissage :
 
 ### Projet : [Amélioration d'une application Web Python](https://github.com/spleenYou/OC-P11)
 
-Le projet consiste à reprendre un site web pour corriger ses bugs avec une utilisation plus professionnelle des branches Github.
+Le projet consiste à reprendre un site web pour corriger ses bugs avec une utilisation plus professionnelle des branches GitHub.
 Avec vérification de ses performances en cas d'utilisation intensive.
-Mise en place de vérification et limite suivant un cahier des charges.
+Mise en place de vérifications et limites suivant un cahier des charges.
 
 Apprentissage :
 - Flask
@@ -95,11 +95,11 @@ Apprentissage :
 
 ### Projet : [Architecture back-end sécurisée](https://github.com/spleenYou/OC-P12)
 
-Le projet consiste à developper un CRM interne de gestion de clients et d'évènements.
+Le projet consiste à développer un CRM interne de gestion de clients et d'évènements.
 L'objectif est de mettre en place une base de données sécurisée et fiable.
-Les mots de passe sont sauvegarder après hashage via Argon2.
-L'accès aux actions et informations sont définies par des rôles utilisateurs et un JWT.
-En cas d'erreur dans le code, elle est remonté sur Sentry pour une analyse rapide.
+Les mots de passe sont sauvegardés après hashage via Argon2.
+L'accès aux actions et informations est défini par des rôles utilisateurs et un JWT.
+En cas d'erreur dans le code, elle est remontée sur Sentry pour une analyse rapide.
 
 Apprentissage :
 - MySQL
@@ -113,12 +113,12 @@ Mise en place de Sentry pour suivre les erreurs.
 Mise en place d'un pipeline CI/CD qui :
     - Vérifie le linting
     - Effectue les tests et vérifie que la couverture du code (minimum 80%)
-    - Créer deux images Docker (une latest et une avec le tag GIT_COMMIT pour historique)
+    - Crée deux images Docker (une latest et une avec le tag GIT_COMMIT pour historique)
     - Envoie sur le hub Docker
     - Déploiement sur Render avec passage des variables d'environnement
 
 Apprentissage :
 - Docker
-- Github Actions
+- GitHub Actions
 - ReadTheDocs
 - Render
