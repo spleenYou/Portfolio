@@ -43,7 +43,7 @@ Le projet consiste en la recherche d'une solution d'achat d'actions selon une li
 Le but est de trouver la liste la plus rentable pour un montant d'achat donné.\
 La première solution se fait en burte-force, la deuxième est basé sur une résolution du problème du sac à dos pour une optimisation du temps d'exection.
 
-Apprentissage:
+Apprentissage :
 - Notion big-O
 - Limite de résolution d'un algorithme
 - Utilisation du package Rich
@@ -68,6 +68,57 @@ Les fonctionnalités principales :
 - Authentification
     - Inscription et connexion requises pour accéder aux fonctionnalités
 
-Apprentissage:
+Apprentissage :
 - Django
 - WCAG
+
+### Projet : [API sécurisé](https://github.com/spleenYou/OC-P10)
+
+Le projet consiste a créer une API RESTful en utilisant Django REST avec une identification OAUTH2.\
+L'API permet de remonter et suivre des problèmes techniques avec gestion de groupes de contributeurs par projet et par problème.
+Elle utilise une authentification via JWT et respecte le RGPD car chaque contributeur peut choisir s'il peut être contacter et si leurs données personnelles peuvent être vu par tous.
+L'API tend vers des spécifications green code en envoyant le plus d'informations utiles possible en une fois afin d'éviter la surconsommation des serveurs.
+
+Apprentissage :
+- Django REST
+- Postman
+
+### Projet : [Amélioration d'une application Web Python](https://github.com/spleenYou/OC-P11)
+
+Le projet consiste à reprendre un site web pour corriger ses bugs avec une utilisation plus professionnelle des branches Github.
+Avec vérification de ses performances en cas d'utilisation intensive.
+Mise en place de vérification et limite suivant un cahier des charges.
+
+Apprentissage :
+- Flask
+- Locust
+
+### Projet : [Architecture back-end sécurisée](https://github.com/spleenYou/OC-P12)
+
+Le projet consiste à developper un CRM interne de gestion de clients et d'évènements.
+L'objectif est de mettre en place une base de données sécurisée et fiable.
+Les mots de passe sont sauvegarder après hashage via Argon2.
+L'accès aux actions et informations sont définies par des rôles utilisateurs et un JWT.
+En cas d'erreur dans le code, elle est remonté sur Sentry pour une analyse rapide.
+
+Apprentissage :
+- MySQL
+- SQLalchemy
+- Sentry
+
+### Projet : [Mettre en place une app Django en utilisant une architecture modulaire](https://github.com/spleenYou/OC-P13)
+
+Le projet consiste à réduire la dette technique de l'application en modularisant l'app principale en trois modules.
+Mise en place de Sentry pour suivre les erreurs.
+Mise en place d'un pipeline CI/CD qui :
+    - Vérifie le linting
+    - Effectue les tests et vérifie que la couverture du code (minimum 80%)
+    - Créer deux images Docker (une latest et une avec le tag GIT_COMMIT pour historique)
+    - Envoie sur le hub Docker
+    - Déploiement sur Render avec passage des variables d'environnement
+
+Apprentissage :
+- Docker
+- Github Actions
+- ReadTheDocs
+- Render
