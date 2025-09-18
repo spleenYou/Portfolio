@@ -111,11 +111,11 @@ Apprentissage :
 Le projet consiste à réduire la dette technique de l'application en modularisant l'app principale en trois modules.
 Mise en place de Sentry pour suivre les erreurs.
 Mise en place d'un pipeline CI/CD qui :
-    - Vérifie le linting
-    - Effectue les tests et vérifie que la couverture du code (minimum 80%)
-    - Crée deux images Docker (une latest et une avec le tag GIT_COMMIT pour historique)
-    - Envoie sur le hub Docker
-    - Déploie sur Render avec passage des variables d'environnement
+- Vérifie le linting
+- Effectue les tests et vérifie que la couverture du code (minimum 80%)
+- Crée deux images Docker (une latest et une avec le tag GIT_COMMIT pour historique)
+- Envoie sur le hub Docker
+- Déploie sur Render avec passage des variables d'environnement
 
 Apprentissage :
 - Docker
